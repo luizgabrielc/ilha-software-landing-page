@@ -5,10 +5,9 @@ import { Navbar } from '../../components/ui/navbar'
 
 const MarketingPage = () => {
   return (
-    <div className='h-full flex flex-col items-center justify-center md:justify-start text-center flex-1 '>
+    <div className='flex flex-col'>
       <Navbar />
       <Content />
-      <Footer />
     </div>
   )
 }

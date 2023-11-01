@@ -1,12 +1,10 @@
-import { Navbar } from "../../components/ui/navbar";
-
-const MarketingLayout = ({
+  const MarketingLayout = ({
   children
 }: {
   children: React.ReactNode;
 }) => {
   return (
-    <main className="h-full">
+    <main className="">
       {children}
     </main>
   );
